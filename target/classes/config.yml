@@ -1,0 +1,22 @@
+chances:
+  # それぞれの確率です。単位は%です。
+  poor: 90
+  common: 6
+  uncommon: 3
+  rare: 0.8
+  super_rare: 0.2
+items:
+  # それぞれもらえるアイテムです。
+  # 名前は https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html を参照してください。
+  poor: EXPERIENCE_BOTTLE
+  common: IRON_PICKAXE
+  uncommon: DIAMOND
+  rare: DIAMOND_BLOCK
+  super_rare: NETHERITE_INGOT
+amounts:
+  # それぞれ与えるアイテム数です
+  poor: 1
+  common: 1
+  uncommon: 4
+  rare: 4
+  super_rare: 8

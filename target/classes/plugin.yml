@@ -1,0 +1,11 @@
+name: gacha
+version: '1.0-SNAPSHOT'
+main: club.nyandere.gacha.Gacha
+api-version: '1.17'
+commands:
+  givegacha:
+    description: "ガチャ券を与えます"
+    usage: "/givegacha <player> <amount>"
+  buygacha:
+    description: "ガチャ券を購入します"
+    usage: "/buygacha"
